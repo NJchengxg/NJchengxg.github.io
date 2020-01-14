@@ -1,5 +1,7 @@
-# 个人信息
-# 研究论文
-# 发明专利
+# Main information
+  I am a associate Professor in Nanjing University of Posts ans telecommuncations, also I am a research fellow in ETHZ.
+# Selected Academic Paper
+
+# Patent
 
 
