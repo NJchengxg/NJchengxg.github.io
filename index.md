@@ -30,9 +30,7 @@
 
 # Award
   Dec.2015    &nbsp; Excellent supervisor of NUPT <br/>
-  
   May	2015    &nbsp; 3S Cup College Student competition in internet of things   &nbsp;  Third prize(supervisor)   <br/>
-  
   May	2016    &nbsp; 3S Cup College Student competition in internet of things   &nbsp;  Second prize(supervisor)  <br/>
   
 # Self-Estimate
