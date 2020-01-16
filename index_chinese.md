@@ -8,6 +8,7 @@
       <p><b>Experience: 1)Research Fellow@Computer Vision Lab, ETH Zürich. Supervisor: Prof. Luc Van Gool; 2)Postdoc@KTH Royal Institute of Technology, Sweden; 3) Ph.D.@Nanjing University and B.E.@Southeast University</b></p>
       <p><b>Contact: 1)E-mail: chengx@vision.ee.ethz.ch, xiacheng@kth.se, chengxg@njupt.edu.cn; 2)Phone: +86 138 1337 2706, +86 180 0515 6973</b></p>
       <p><b>Welcome to join my research group</b></p>
+      <a href="/index.html">英文版</a>
     </td>
     <td width="25%">
       <img src="/chengxg-portrait.jpg" width="100%">      
