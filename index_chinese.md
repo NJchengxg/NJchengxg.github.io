@@ -11,7 +11,7 @@
       <a href="/index.html">英文版</a>
     </td>
     <td width="25%">
-      <img src="/chengxg-portrait.jpg" width="100%">      
+      <img src="./Resource/chengxg-portrait.jpg" width="100%">      
     </td>
   </tr>
 </table>
