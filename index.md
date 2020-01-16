@@ -29,8 +29,8 @@
 # Publications(past 3 years, Second author or corresponding author)
 
 # Award
-  Dec.2015    Excellent supervisor of NUPT
-  May	2015    3S Cup College Student competition in internet of things    Third prize (supervisor)
-  May	2016    3S Cup College Student competition in internet of things    Second prize (supervisor)
+  Dec.2015    &nbsp; Excellent supervisor of NUPT </br>
+  May	2015    &nbsp; 3S Cup College Student competition in internet of things   &nbsp;  Third prize(supervisor)   </br>
+  May	2016    &nbsp; 3S Cup College Student competition in internet of things   &nbsp;  Second prize(supervisor)  </br>
 # Self-Estimate
 Outgoing, diligent, strong willed and sober personality, Good communication skill and teamwork spirit, Enjoying the challenges of working in busy environment, Untalented but perseverant and indomitable.
