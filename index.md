@@ -33,3 +33,4 @@
 # Award
 
 # Self-Estimate
+Outgoing, diligent, strong willed and sober personality, Good communication skill and teamwork spirit, Enjoying the challenges of working in busy environment, Untalented but perseverant and indomitable.
