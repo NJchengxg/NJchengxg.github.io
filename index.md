@@ -7,6 +7,8 @@
       <p><b>Nanjing University of Posts and Telecommunications (NUPT)</b></p>
       <p><b>chengx@vision.ee.ethz.ch, xiacheng@kth.se, chengxg@njupt.edu.cn </b></p>
       <p><b> +86 138 1337 2706, +86 180 0515 6973 </b></p>
+      <p><b> Welcome to join my research group </b></p>
+      
     </td>
     <td width="25%">
       <img src="/chengxg-portrait.jpg" width="100%">      
