@@ -2,7 +2,7 @@
 <table border="0">
   <tr>
     <td width="75%">
-      <h1>Prof. Dr. CHENG xiaogang </h1>
+      <h1>Prof. Dr. Xiaogang CHENG</h1>
       <p><b>Associate Professor </b></p>
       <p><b>Nanjing University of Posts and Telecommunications (NUPT)</b></p>
       <p><b>Research Fellow at Computer Vision Lab, ETH Zürich. Supervisor: Prof. Luc Van Gool</b></p>
