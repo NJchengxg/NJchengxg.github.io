@@ -1,0 +1,482 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Prof. Dr. Xiaogang Cheng</title>
+	<meta content="Xiaogang Cheng, chengxg-vision.github.io" name="keywords">
+	<style media="screen" type="text/css">html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0pt none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0pt;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0pt;
+  padding: 0pt;
+  vertical-align: baseline;
+}
+
+a {
+  color: #1772d0;
+  text-decoration:none;
+}
+
+a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+}
+
+a.paper {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+b.paper {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+* {
+  margin: 0pt;
+  padding: 0pt;
+}
+
+body {
+  position: relative;
+  margin: 3em auto 2em auto;
+  width: 800px;
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #eee;
+}
+
+h2 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+strong {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight:bold;
+}
+
+ul { 
+	list-style: circle;
+}
+
+img {
+  border: none;
+}
+
+li {
+  padding-bottom: 0.1em;
+  margin-left: 1.4em;
+}
+
+alert {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #FF0000;
+}
+
+em, i {
+	font-style:italic;
+}
+
+div.section {
+  clear: both;
+  margin-bottom: 1.5em;
+  background: #eee;
+}
+
+div.spanner {
+  clear: both;
+}
+
+div.paper {
+  clear: both;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1em 1em 1em 1em;
+}
+
+div.paper div {
+  padding-left: 230px;
+}
+
+img.paper {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 200px;
+}
+
+span.blurb {
+  font-style:italic;
+  display:block;
+  margin-top:0.75em;
+  margin-bottom:0.5em;
+}
+
+pre, code {
+  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+  margin: 1em 0;
+  padding: 0;
+}
+
+div.paper pre {
+  font-size: 0.9em;
+}
+</style>
+
+<link href="./Chengxg_Resource/css" rel="stylesheet" type="text/css">
+<script async="" src="./Chengxg_Resource/analytics.js.download"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45959174-3', 'chengxg-vision.github.io');
+  ga('send', 'pageview');
+</script></head>
+
+
+<!-- the content above is document head >—-->
+<p><b> 中文版 <a href="./index.html">English version</a></b></p>
+
+
+<!-- 统计访问量的java代码 >—-->
+<script language=JavaScript>
+<!--
+var caution = false
+function setCookie(name, value, expires, path, domain, secure){
+var curCookie = name + "=" + escape(value) +
+((expires) ? "; expires=" + expires.toGMTString() : "") +
+((path) ? "; path=" + path : "") +
+((domain) ? "; domain=" + domain : "") +
+((secure) ? "; secure" : "")
+if (!caution || (name + "=" + escape(value)).length<= 4000)
+document.cookie = curCookie
+else
+if (confirm("Cookie exceeds 4KB and will be cut!"))
+document.cookie = curCookie
+}
+function getCookie(name) {
+var prefix = name + "="
+var cookieStartIndex = document.cookie.indexOf(prefix)
+if (cookieStartIndex == -1)
+return null
+var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex+ prefix.length)
+if (cookieEndIndex == -1)
+cookieEndIndex = document.cookie.length
+return unescape(document.cookie.substring(cookieStartIndex +prefix.length, cookieEndIndex))
+}
+function deleteCookie(name, path, domain) {
+if (getCookie(name)) {
+document.cookie = name + "=" +
+((path) ? "; path=" + path : "") +
+((domain) ? "; domain=" + domain : "") +
+"; expires=Thu, 01-Jan-70 00:00:01 GMT"
+}
+}
+function fixDate(date) {
+var base = new Date(0)
+var skew = base.getTime()
+if (skew > 0)
+date.setTime(date.getTime() - skew)
+}
+var now = new Date()
+fixDate(now)
+now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
+var visits = getCookie("counter")+11000  <!-- 在11000基础上进行统计>—-->
+if (!visits)
+visits = 1
+else
+visits = parseInt(visits) + 1
+setCookie("counter", visits, now)
+<!-- document.write("You are the " + visits + "th vistors. Appreciate your comments and attention!")  >-->
+document.write("您是第" + visits + "位访问者。谢谢您的关注，欢迎指正！")
+// -->
+</script>
+<!-- 统计访问量的java代码 >—-->
+
+
+
+
+<!-- start of the 1st box >—-->
+<body>
+<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 450px;">
+<div style="margin: 0px auto; width: 100%;">
+<img title="Chengxg" style="float: right; padding-left: 0.05em; height: 261px;" src="./Chengxg_Resource/chengxg-portrait.jpg">
+<div style="padding-left: 0em; vertical-align: top; height: 120px;">
+<span style="line-height: 150%; font-size: 18pt;" >Prof. Dr. Xiaogang Cheng (成孝刚)</span><br>
+<br /> <!-- for generating blank line -->
+
+<p><b> 成孝刚，男，博士，硕导，副教授，信号与信息处理专业，先后毕业于东南大学、南京大学。2016年至2019年先后在瑞典皇家理工学院电子与计算机学院(KTH EECS)、瑞士苏黎世联邦理工学院人工智能实验室(ETHZ CVL)完成博士后研究。目前执教于南京邮电大学通信与信息工程学院。IEEE会员，IEICE会员，主要从事计算机视觉(CS)与人工智能(AI)相关的研究工作。以第一作者发表学术论文14篇，其中SCI收录7篇(JCR一区3篇)；申请发明专利20余项(已公开)，授权7项；获中国电影电视技术学会科学技术一等奖1次，市级一等奖2次。2014年受聘江苏省科协首席专家(工程师)，2015年获南京邮电大学微课教学竞赛优胜奖，2016年获南京邮电大学开放课题优秀指导教师。</b></p>
+<br /> <!-- for generating blank line -->
+
+<p><b>近年来，以骨干身份参与研究课题多项，其中国家科技重大专项1项，国家自然科学基金1项，江苏省科技重大项目2项，江苏省重点研发计划(产业前瞻与共性关键技术)重点项目(BE2016001-3)。</b></p>
+<br /> <!-- for generating blank line -->
+
+
+<p><b>2014年以来，以负责人身份主持纵向课题9项，教改课题2项。其中国家自然科学基金项目1项 (No.61401236)，省部级课题2项，厅级课题4项。2016年命中瑞典Kempe基金，中国博士后国际交流计划派出项目(No.20160022)。</b></p>
+<br /> <!-- for generating blank line -->
+
+<p><b>2014年以来，指导并培养硕士研究生15名，其中6名已经毕业，分别就职于华为、百度、展讯、中国移动、中国电信、Media Tek等公司。2016年指导本科生参加第十八届 “创新杯” 课外学术科技作品竞赛，荣获一等奖；2016年指导本科生参加南京邮电大学智能互联创新大赛荣获三等奖。2015年、2016年先后指导本科生参加全国大学生物联网技术与应用“三创”大赛，分别获得二等奖和三等奖。</b></p>
+<br /> <!-- for generating blank line -->
+
+</div>
+</div>
+</div>
+<!--<div style="clear: both; background-color: #fff; margin-top: 1.5em; padding: .2em; padding-left: .3em;">-->
+<!-- end of the 1st box >—-->
+
+
+
+
+
+<!-- start of the 2nd box >—-->
+<div style="clear: both;">
+<div class="section">
+  <h2>Research interests</h2>
+  <div class="paper">
+  	<p><b>Main interests: Artificial Intelligence (AI) and Computer vision (CV)</b></p>
+	<br />
+	<p style="line-height: 140%"><b>Topic 1. Non-invasive thermal comfort perception for humanistic intelligent building</b></p>
+    <span style="line-height: 140%">1. <strong>&nbsp;Project:&nbsp;</strong>Non-invasive thermal comfort perception based on deep learning.</span><br>
+    <span style="line-height: 140%">2. <strong>&nbsp;Methodology:&nbsp;</strong>Machine learning (Deep Learning), computer vision.</span><br>
+    <span style="line-height: 140%">3. <strong>&nbsp;Interdisciplinary subjects:&nbsp;</strong>Computer vision, machine learning and building physics.</span><br>
+    <span style="line-height: 140%">4. <strong>&nbsp;Motivation:&nbsp;</strong>Energy saving, Human-centered indoor environment (buildings, vehicles).</span><br>
+    <span style="line-height: 140%">5. <strong>&nbsp;Philosophical idea:&nbsp;</strong>Thermal comfort through perception.</span><br>
+    <span style="line-height: 140%">6. <strong>&nbsp;Cooperation institutions:&nbsp;</strong>ETHZ Switzerland, KTH Sweden, UMU Sweden, LBNL USA, XAUAT China</span><br>
+    <br />
+    <p style="line-height: 140%"><b>Topic 2. Defogging and fogy visibility estimation for intelligent transportation</b></p>
+	<span style="line-height: 140%">1.<strong>&nbsp;Project:&nbsp;</strong>Hazy visibility estimation and defogging based on deep learning and computer vision.</span><br>
+    <span style="line-height: 140%">2.<strong>&nbsp;Methodology:&nbsp;</strong>Machine learning (Deep Learning), computer vision.</span><br>
+    <span style="line-height: 140%">3.<strong>&nbsp;Interdisciplinary subjects:&nbsp;</strong>Computer vision, intelligent transportation and atmospheric sciences.</span><br>
+    <span style="line-height: 140%">4.<strong>&nbsp;Motivation:&nbsp;</strong>Reduce traffic accidents, serve self-driving cars.</span><br>
+    <span style="line-height: 140%">5.<strong>&nbsp;Cooperation institutions:&nbsp;</strong> ETHZ Switzerland, KTH Sweden.</span><br>
+    <br />
+  </div>
+</div>
+</div>
+<!-- end of the 2nd box >—-->
+
+<!-- start of the 3rd box >—-->
+<div style="clear: both;">
+<div class="section">
+  <h2>主要学术贡献</h2>
+  <div class="paper">
+ 	<span style="line-height: 140%"><strong>Build a new research sub-direction between computer vision and building physics.&nbsp;</strong> For overcoming the drawbacks of current methods (invasive or semi-invasive, non-human-centered), we proposed vision-based non-invasive perception for human thermal comfort in Oct. 2016.</span><br>
+    <br />
+	
+    <span style="line-height: 140%"><strong>Construct algorithms.&nbsp;</strong>For overcoming the corresponding challenges, several algorithms were proposed. The challenges of human thermal comfort perception are 1) inter-individual difference, 2) intra-individual difference, and 2) subtle variation of skin texture.</span><br>
+    <br />
+  </div>
+</div>
+</div>
+<!-- end of the 3rd box >—-->
+
+
+
+<!-- start of the 4th box >—-->
+<div style="clear: both;">
+<div class="section">
+<h2 id="confpapers">学术论文(近三年，一作) </h2>
+<ol>
+<div class="paper">
+
+<li style="line-height: 140%"><strong>CHENG X. G.</strong>, YANG B., VAN GOOL L., et al. NIDL: A pilot study of contactless measurement of skin temperature for intelligent building.
+ Energy and Buildings, 2019, 198:340-352. (SCI, JCR Q1, cited: 2)</li>
+<li style="line-height: 140%"><strong>CHENG X. G.</strong>, YANG B., TAN K. G., et al. A Contactless Measuring Method of Skin Temperature based on the Skin Sensitivity Index 
+and Deep Learning. Applied science, 2019, 9:1375.(SCI, JCR Q4)</li>
+<li style="line-height: 140%"><strong>CHENG X. G.</strong>, YANG B., OLOFSSON T., et.al. A variational approach to atmospheric visibility estimation in the weather of fog and haze. 
+Sustainable cities and society, 2018, 39:215-224. (SCI, JCR Q2, cited: 4)</li>
+<li style="line-height: 140%"><strong>CHENG X. G.</strong>, YANG B., OLOFSSON T., et.al. A Total Bounded Variation Approach to Low Visibility Estimation on Expressways. 
+Sensors, 2018, 18:392-410. (SCI, JCR Q3)</li>
+<li style="line-height: 140%"><strong>CHENG X. G.</strong>, YANG B., OLOFSSON T., et.al. A pilot study of online non-invasive measuring technology based on video magnification
+ to determine skin temperature. Building and Environment, 2017, 121:1-10. (SCI, JCR Q1, cited: 17)</li>
+<li style="line-height: 140%"><strong>CHENG X. G.</strong>, Timofte R., Dai D. X., et al. FEW: Foggy ExpressWay visibility image estimation, CVPR2020, 2019. (Top Conference in 
+Computer Vision, peer review)</li>
+<li style="line-height: 140%"><strong>CHENG X. G.</strong>, Paudel D. P., Van Gool L., et al. Unsupervised Video Decomposition for Motion Magnification, CVPR2020, 2019. 
+(Top conference in Computer Vision, peer review)</li>
+<li style="line-height: 140%"><strong>CHENG X. G.</strong>, LIU G. Q., Olofsson T., et al. DEEP: Deep Architecture of Quantitative Estimation for PM2.5 Concentration 
+Using Feature Prior, IEEE TIE, 2019. (SCI, JCR Q1, peer review)</li>
+</ol>
+
+
+<div class="spanner"></div>
+</div>
+
+</div>
+</div>
+<!-- start of the 4th box >—-->
+
+
+<!-- start of the 5th box >—-->
+<div style="clear: both;">
+<div class="section">
+<h2 id="confpapers">学术论文 (近三年，二作或通讯) </h2>
+<ol>
+<div class="paper">
+<li style="line-height: 140%">Meier A. <strong>Cheng X. G.</strong>, Dyer W. et al. Non-invasive assessments of Thermal Discomfort in Real Time. Comfort at the extremes 2019.</li>
+<li style="line-height: 140%">YANG B., <strong>CHENG X. G.</strong>, MEIER A., et al. Real-time and contactless measurements of thermal discomfort based on human poses 
+for energy efficient control of buildings. Building and Environment, 2019, 162:1-10. (SCI, JCR Q1, cited: 2, corresponding author)</li>
+</ol>
+
+<div class="spanner"></div>
+</div>
+
+
+</div>
+</div>
+<!-- start of the 5th box >—-->
+
+
+<!-- start of the 6th box >—-->
+<div style="clear: both;">
+<div class="section">
+  <h2>科研项目</h2>
+  <div class="paper">
+	<ol>
+    <li style="line-height: 140%">国家自然科学基金项目、No.61401236、基于分段平稳时间序列分析的高速公路交通流预测研究、主持;</li>
+    <li style="line-height: 140%">江苏省博士后基金、No.1601039B、基于分段平稳与深度学习的雾霾能见度检测研究、主持;</li>
+	<li style="line-height: 140%">中国博士后国际交流基金、No.20160022、面向智能建筑的非侵入式检测技术研究、主持;</li>
+	<li style="line-height: 140%">教育部宽带无线通信技术工程研究中心开放课题、基于立体式监控的雾霾能见度检测、主持;</li>
+	<li style="line-height: 140%">南京邮电大学、No. NY214005、基于高速公路实时监控的交通流预测与手机发布研究、主持;</li>
+	<li style="line-height: 140%">南京邮电大学通达学院、No. JG0021427、在毕业设计环节中如何培养大学生的创新意识与能力研究、主持;</li>
+	<li style="line-height: 140%">瑞典 Kempe 基金、基于深度学习的树叶基因特征检测研究、骨干(3th);</li>
+	<li style="line-height: 140%">江苏省重点研发计划(产业前瞻与共性关键技术)重点项目、No. BE2016001-3、基于深度学习的交通视频大数据分析算法及其应用研究、骨干(3th).</li>
+	</ol>
+  </div>
+</div>
+</div>
+<!-- end of the 6th box >—-->
+
+
+
+<div style="clear: both;">
+<div class="section">
+  <h2>教学奖励</h2>
+  <div class="paper">
+	<ol>
+    <li style="line-height: 140%">2016年南京邮电大学开放课题优秀指导教师，南京邮电大学.</li>
+    <li style="line-height: 140%">2016年全国大学生物联网技术与应用“三创”大赛 二等奖(指导教师)，中国通信学会.</li>
+	<li style="line-height: 140%">第十八届“创新杯”课外学术科技作品竞赛(2016)，一等奖(指导教师)，南京邮电大学.</li>
+	<li style="line-height: 140%">2016年南京邮电大学智能互联创新大赛，三等奖(指导教师)，南京邮电大学.</li>
+	<li style="line-height: 140%">2015年全国大学生物联网技术与应用“三创”大赛 三等奖(指导教师)，中国通信学会.</li>
+	<li style="line-height: 140%">2015年度南京邮电大学微课教学竞赛优胜奖，南京邮电大学.</li>
+	</ol>
+  </div>
+</div>
+</div>
+
+
+<div style="clear: both;">
+<div class="section">
+  <h2>学术奖励</h2>
+  <div class="paper">
+	<ol>
+    <li style="line-height: 140%">中国电影电视技术学会科学技术奖,中国电影电视技术学会,一等奖, 2010 (排序7th).</li>
+    <li style="line-height: 140%">南京市广播电视2009年度科技创新奖,南京市文化广电新闻出版局,一等奖, 2010 (排序7th).</li>
+	<li style="line-height: 140%">南京市广播电视2009年度科技创新奖,南京市文化广电新闻出版局,一等奖,2010 (排序8th).</li>
+	</ol>
+  </div>
+</div>
+</div>
+
+
+<div style="clear: both;">
+<div class="section">
+  <h2>发明专利(授权)</h2>
+  <div class="paper">
+	<ol>
+    <li style="line-height: 140%">王殷浩,胡婧,<strong>成孝刚</strong>,谢世朋,许艳丽,吕泓君,李海波.一种基于多层矢量图的能见度检测方法.2017.2,中国, CN106408526A, 2016107261459.(指导教师)</li>
+    <li style="line-height: 140%">周凯,<strong>成孝刚</strong>,李海波,谢世朋,熊健,谈苗苗. 基于暗通道先验与最小图像熵的交通雾霾能见度检测方法,2016.9,中国, CN105931220A, 201610227754X.(指导教师)</li>
+	<li style="line-height: 140%">李勃,陈钊正,翟霄宇,王振华,<strong>成孝刚</strong>,赵贺,李若翩,陈启美,闵建洪.一种基于宽阔水域的无线视频监控系统,中国,2013.10,CN102368818A,ZL 2011 1 0326528.4</li>
+	<li style="line-height: 140%"><strong>成孝刚</strong>,安明伟,李勃,陈启美,唐岚,高艳宁. 一种基于磨光函数与Parzen窗估计的ICA盲信号分离方法及其系统2013.10,中国,CN102075468A,ZL 2011 1 0000469.1</li>
+	<li style="line-height: 140%"><strong>成孝刚</strong>,李勃,安明伟,唐岚,董蓉,吴聪,刘晓男,陈启美.基于非参量估计ICA的MIMO-OFDM系统盲去卷积方法,2014.5,中国,CN102025459A, ZL 2010 1 0581170.5.</li>
+	</ol>
+  </div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+  <h2>发明专利(申请)</h2>
+  <div class="paper">
+	<ol>
+    <li style="line-height: 140%">李德志,<strong>成孝刚</strong>,汪涛,吕泓君,钱俊鹏,任俊弛.基于DenseNet的高速公路交通流预测方法, 2018.12., CN109035779A, 2018110020461. (指导教师)</li>
+    <li style="line-height: 140%">汪涛,<strong>成孝刚</strong>,李德志,吕泓君,钱俊鹏,任俊弛,李海波.一种基于图像频谱的交通雾霾能见度检测方法, 2018. 08, CN109214331A , 2018110025408. (指导教师)</li>
+	<li style="line-height: 140%">杨宇辰,霍南,<strong>成孝刚</strong>,吴毓双.一种风叶裂痕检测方法.2018.07.31. CN109035237A, 2018108562950. (指导教师)</li>
+	<li style="line-height: 140%">吕泓君,<strong>成孝刚</strong>,李海波,李德志,汪涛,解晓波.基于深度学习与个性化因子的雾霾能见度检测方法, 2018.07, CN109086803A, 11201810755419.6. (指导教师)</li>
+	<li style="line-height: 140%"><strong>成孝刚</strong>,宋丽敏,李智,邵文泽,谢世朋,李海波.基于深度学习的无人机警察系统.2016.10,中国,CN107038450A,2016108946754.(指导教师)</li>
+	<li style="line-height: 140%">覃婷婷,王殷浩,<strong>成孝刚</strong>,谢世朋,周凯,汪涛,李海波. 一种基于深度学习的旋翼无人机自动巡航方法及其系统.2016.11,中国, CN106168808A, 2016107256446.(指导教师)</li>
+	<li style="line-height: 140%">胡婧,覃婷婷,<strong>成孝刚</strong>,邵文泽,成云,李德志,李海波.一种基于深度学习的智能室内入侵检测方法及系统.2017.2,中国, CN106372576A, 2016107058587.(指导教师)</li>
+	<li style="line-height: 140%"><strong>成孝刚</strong>,李海波,卢官明,钱晨,李智,程百川,刘维成,吴蕴翔.基于深度学习的无人机手势交互方法及系统.2016.12,中国, CN106227341A, 2016105747937. </li>
+	<li style="line-height: 140%"><strong>成孝刚</strong>,安明伟,李勃,陈钊正,翟霄宇,王振华,陈启美.基于自适应功率分配的多用户MIMO-OFDM系统的实现方法,2011.7,中国,CN102045852A.</li>
+	<li style="line-height: 140%">安明伟,金凌,<strong>成孝刚</strong>,李勃,陈启美,巫云香.基于信息汇聚的交通物联网分层体系架构. 2010.12.13,中国, CN102055800A, 2010105850220</li>
+	<li style="line-height: 140%">汪涛,<strong>成孝刚</strong>,李德志,吕泓君,钱俊鹏,任俊弛,李海波.基于改进InceptionV4网络的交通雾霾能见度检测方法, 2019.3, 201910160058.5. (指导教师)</li>
+	<li style="line-height: 140%">李德志,<strong>成孝刚</strong>,汪涛,吕泓君,钱俊鹏,任俊弛,李海波.基于改进独立循环神经网络的高速公路交通流预测方法, 2019.3, 201910159828.4. (指导教师)</li>
+	<li style="line-height: 140%"><strong>成孝刚</strong>,宋丽敏,钱俊鹏,任俊弛,李海波.一种非侵入式人体热舒适的AI感知方法, 2019.01, 201910062196.X.</li>
+	<li style="line-height: 140%"><strong>成孝刚</strong>,宋丽敏,钱俊鹏,任俊弛,李海波.一种基于姿态估计的非侵入式人体热舒适检测方法即系统，2019.3，201910160062.1.</li>
+	</ol>
+  </div>
+</div>
+</div>
+
+
+<!-- start of the 7th box >—-->
+<div style="clear: both;">
+<div class="section">
+  <h2>联系方式</h2>
+  <div class="paper">
+	<span style="line-height: 140%"><strong><b>联系电话：</b>13813372706</strong><br />
+	<span style="line-height: 140%"><strong><b>单位电话：</b>025-83492416</strong><br />
+	<span style="line-height: 140%"><strong><b>E-mail：</b>chengx@vision.ee.ethz.ch, xiacheng@kth.se, chengxg@njupt.edu.cn</strong><br />
+  </div>
+</div>
+</div>
+<!-- end of the 7th box >—-->
+
+
+<!-- start of the 8th box >—-->
+<div style="clear: both;">
+<div class="section">
+  <h2>备注</h2>
+  <div class="paper">
+	<ol>
+	<strong>
+	<li style="line-height: 140%">欢迎有志青年报考本人或课题组研究生。</li>
+	<li style="line-height: 140%">对人工智能感兴趣，具有良好的数学基础与编程能力(Python, Matlab)，做事积极主动者优先考虑。</li>
+	<li style="line-height: 140%">作为导师，本人将因地制宜的提供两方面的引导：1)解决问题的能力；2)人生发展一些经验总结。以期帮助同学们更好的发展自己和照顾家人，从而为国家做出更多的贡献。</li>
+	<li style="line-height: 140%">有意者通过电子邮箱(chengx@vision.ee.ethz.ch, xiacheng@kth.se, chengxg@njupt.edu.cn)联系本人。</li>
+	</strong>
+	</ol>
+  </div>
+</div>
+</div>
+<!-- end of the 8th box >—-->
+
+
+
+
+<!-- start of the 9th box >—-->
+<div style="clear:both;">
+<p align="right"><font size="5">Under construction.Last Updated on 28 Jan., 2020</font></p>
+<p align="right"><font size="5">Published with <a href="https://pages.github.com/">GitHub Pages</a></font></p>
+</div>
+<!-- end of the 9th box >—-->
+
+</body></html>
